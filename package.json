@@ -1,0 +1,23 @@
+{
+  "name": "tests-en-node",
+  "version": "1.0.0",
+  "description": "Ejemplo de Tests en Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test node_modules/.bin/mocha -w --recursive"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cross-env": "^5.2.0",
+    "exec-sql": "^2.0.2",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
